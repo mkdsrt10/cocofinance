@@ -50,7 +50,7 @@ const getChainTvl = async chain => {
     const vault = vaultsBifi[i];
     const vaultBal = vaultBalances[i];
     const tokenPrice = await fetchPrice({ oracle: vault.oracle, id: vault.oracleId });
-    const tvl = vaultBal.times(tokenPrice).dividedBy(10 ** (vault.tokenDecimals ?? 18));
+    const tvl = vaultBal.times(tokenPrice).dividedBy(10 ** (vault.tokenDecimals || 18));
 
     const apr = aprs[vault.id]
 
