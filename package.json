@@ -2,6 +2,9 @@
   "name": "defi-api",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "license": "MIT",
   "dependencies": {
     "@ethersproject/abi": "^5.3.0",
