@@ -3,6 +3,7 @@ const bscPools = [
     id: 'dopple-dop-lp',
     logo: 'Beefy/DOPPLE-DOP-LP.svg',
     chain: 56,
+    instruction:"1. Go to Dopple and buy the Dopple-Dop LP tokens.\n2. Submit the Dopple-Dop LP in the Beefy vault.\n3. Now the vault auto-compound your token and give you better results.",
     name: 'BUSD/USDT/USDC/DAI',
     token: 'BUSD/USDT/USDC/DAI',
     tokenDescription: 'Dopple',
@@ -32,6 +33,7 @@ const bscPools = [
   {
     id: 'dopple-ust-lp',
     logo: 'Beefy/DOPPLE-UST-LP.png',
+    instruction:"1. Go to Dopple and buy the Dopple-UST LP tokens.\n2. Submit the Dopple-UST LP in the Beefy vault.\n3. Now the vault auto-compound your token and give you better results.",
     chain: 56,
     name: 'UST/BUSD/USDT',
     token: 'UST/BUSD/USDT',
@@ -62,6 +64,7 @@ const bscPools = [
   {
     id: 'dopple-dolly-lp',
     logo: 'Beefy/DOPPLE-DOLLY-LP.svg',
+    instruction:"1. Go to Dopple and buy the Dopple-Dolly LP tokens.\n2. Submit the Dopple-Dolly LP in the Beefy vault.\n3. Now the vault auto-compound your token and give you better results.",
     chain: 56,
     name: 'DOLLY/BUSD/USDT',
     token: 'DOLLY/BUSD/USDT',
@@ -92,6 +95,7 @@ const bscPools = [
   {
     id: 'belt-4belt',
     logo: 'Beefy/BELT-VENUSBLP.png',
+    instruction:"1. Go to Belt and buy the Belt-4Belt tokens.\n2. Submit the Belt-4Belt in the Beefy vault.\n3. Now the vault auto-compound your token and give you better results.",
     chain: 56,
     name: 'BUSD/USDT/USDC/DAI',
     token: '4BELT LP',
@@ -120,6 +124,7 @@ const bscPools = [
   {
     id: 'usdt-busd-lp',
     logo: 'pancake/usdt-busd.svg',
+    instruction:"1. Go to PancakeSwap and buy the USDT-BUSD LP tokens.\n2. Submit the USDT-BUSD LP in the PancakeSwap farm.\n3. Now the vault auto-compound your token and give you better results.",
     chain: 56,
     name: 'USDT-BUSD LP',
     tokenDescription: 'Pancakeswap Stable',
@@ -151,6 +156,7 @@ const bscPools = [
   {
     id: 'usdc-busd-lp',
     logo: 'pancake/usdc-busd.svg',
+    instruction:"1. Go to PancakeSwap and buy the USDC-BUSD LP tokens.\n2. Submit the USDC-BUSD LP in the PancakeSwap farm.\n3. Now the vault auto-compound your token and give you better results.",
     chain: 56,
     name: 'USDC-BUSD LP',
     tokenDescription: 'Pancakeswap Stable',
@@ -182,6 +188,7 @@ const bscPools = [
   {
     id: 'dai-busd-lp',
     logo: 'pancake/dai-busd.svg',
+    instruction:"1. Go to PancakeSwap and buy the DAI-BUSD LP tokens.\n2. Submit the DAI-BUSD LP in the PancakeSwap farm.\n3. Now the vault auto-compound your token and give you better results.",
     chain: 56,
     name: 'DAI-BUSD LP',
     tokenDescription: 'Pancakeswap Stable',
@@ -213,6 +220,7 @@ const bscPools = [
   {
     id: 'ust-busd-lp',
     logo: 'pancake/ust-busd.svg',
+    instruction:"1. Go to PancakeSwap and buy the UST-BUSD LP tokens.\n2. Submit the UST-BUSD LP in the PancakeSwap farm.\n3. Now the vault auto-compound your token and give you better results.",
     chain: 56,
     name: 'UST-BUSD LP',
     tokenDescription: 'Pancakeswap Stable',
