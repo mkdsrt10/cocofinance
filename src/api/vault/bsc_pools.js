@@ -2,6 +2,7 @@ const bscPools = [
   {
     id: 'dopple-dop-lp',
     logo: 'Beefy/DOPPLE-DOP-LP.svg',
+    chain: 56,
     name: 'BUSD/USDT/USDC/DAI',
     token: 'BUSD/USDT/USDC/DAI',
     tokenDescription: 'Dopple',
@@ -31,6 +32,7 @@ const bscPools = [
   {
     id: 'dopple-ust-lp',
     logo: 'Beefy/DOPPLE-UST-LP.png',
+    chain: 56,
     name: 'UST/BUSD/USDT',
     token: 'UST/BUSD/USDT',
     tokenDescription: 'Dopple',
@@ -60,6 +62,7 @@ const bscPools = [
   {
     id: 'dopple-dolly-lp',
     logo: 'Beefy/DOPPLE-DOLLY-LP.svg',
+    chain: 56,
     name: 'DOLLY/BUSD/USDT',
     token: 'DOLLY/BUSD/USDT',
     tokenDescription: 'Dopple',
@@ -89,6 +92,7 @@ const bscPools = [
   {
     id: 'belt-4belt',
     logo: 'Beefy/BELT-VENUSBLP.png',
+    chain: 56,
     name: 'BUSD/USDT/USDC/DAI',
     token: '4BELT LP',
     tokenDescription: 'Belt (Auto)',
@@ -116,6 +120,7 @@ const bscPools = [
   {
     id: 'usdt-busd-lp',
     logo: 'pancake/usdt-busd.svg',
+    chain: 56,
     name: 'USDT-BUSD LP',
     tokenDescription: 'Pancakeswap Stable',
     tokenAddress: {
@@ -146,6 +151,7 @@ const bscPools = [
   {
     id: 'usdc-busd-lp',
     logo: 'pancake/usdc-busd.svg',
+    chain: 56,
     name: 'USDC-BUSD LP',
     tokenDescription: 'Pancakeswap Stable',
     quoteTokenAddress: {
@@ -176,6 +182,7 @@ const bscPools = [
   {
     id: 'dai-busd-lp',
     logo: 'pancake/dai-busd.svg',
+    chain: 56,
     name: 'DAI-BUSD LP',
     tokenDescription: 'Pancakeswap Stable',
     quoteTokenAddress: {
@@ -206,6 +213,7 @@ const bscPools = [
   {
     id: 'ust-busd-lp',
     logo: 'pancake/ust-busd.svg',
+    chain: 56,
     name: 'UST-BUSD LP',
     tokenDescription: 'Pancakeswap Stable',
     quoteTokenAddress: {
