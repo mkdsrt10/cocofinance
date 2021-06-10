@@ -24,6 +24,8 @@ const bscPools = [
     platform: 'Dopple',
     aggregatedFrom:"Beefy",
     callFee: 0.5,
+    rateCompound: 2190,
+    afterFee: 0.955,
     addLiquidityUrl: 'https://dopple.finance/Deposit/dop-lps',
   },
   {
@@ -51,6 +53,8 @@ const bscPools = [
     platform: 'Dopple',
     aggregatedFrom:"Beefy",
     callFee: 0.5,
+    rateCompound: 2190,
+    afterFee: 0.955,
     addLiquidityUrl: 'https://dopple.finance/Deposit/ust-pools-lps',
   },
   {
@@ -78,6 +82,8 @@ const bscPools = [
     platform: 'Dopple',
     aggregatedFrom:"Beefy",
     callFee: 0.5,
+    rateCompound: 2190,
+    afterFee: 0.955,
     addLiquidityUrl: 'https://dopple.finance/Deposit/dolly-lps',
   },
   {
@@ -103,6 +109,8 @@ const bscPools = [
     aggregatedFrom:"Beefy",
     assets: ['USDT', 'BUSD', 'USDC', 'DAI', '4BELT'],
     callFee: 0.5,
+    rateCompound: 2190,
+    afterFee: 0.955,
     addLiquidityUrl: 'https://belt.fi/',
   },
   {
@@ -130,6 +138,8 @@ const bscPools = [
     aggregatedFrom:"Pancake",
     assets: ['USDT', 'BUSD', "CAKE"],
     callFee: 0,
+    rateCompound: 365,
+    afterFee: 1,
     addLiquidityUrl: 'https://exchange.pancakeswap.finance/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x55d398326f99059ff775485246999027b3197955',
     pairInfo: "https://pancakeswap.info/pair/0x7EFaEf62fDdCCa950418312c6C91Aef321375A00"
   },
@@ -158,6 +168,8 @@ const bscPools = [
     aggregatedFrom:"Pancake",
     assets: ['USDC', 'BUSD', "CAKE"],
     callFee: 0,
+    rateCompound: 365,
+    afterFee: 1,
     addLiquidityUrl: 'https://exchange.pancakeswap.finance/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
     pairInfo: "https://pancakeswap.info/pair/0x2354ef4DF11afacb85a5C7f98B624072ECcddbB1"
   },
@@ -186,6 +198,8 @@ const bscPools = [
     aggregatedFrom:"Pancake",
     assets: ['DAI', 'BUSD', "CAKE"],
     callFee: 0,
+    rateCompound: 365,
+    afterFee: 1,
     addLiquidityUrl: 'https://exchange.pancakeswap.finance/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3',
     pairInfo: "https://pancakeswap.info/pair/0x66FDB2eCCfB58cF098eaa419e5EfDe841368e489"
   },
@@ -214,6 +228,8 @@ const bscPools = [
     aggregatedFrom:"Pancake",
     assets: ['UST', 'BUSD', "CAKE"],
     callFee: 0,
+    rateCompound: 365,
+    afterFee: 1,
     addLiquidityUrl: 'https://exchange.pancakeswap.finance/#/add/0xe9e7cea3dedca5984780bafc599bd69add087d56/0x23396cf899ca06c4472205fc903bdb4de249d6fc',
     pairInfo: "https://pancakeswap.info/pair/0x05faf555522Fa3F93959F86B41A3808666093210"
   },
