@@ -1,7 +1,7 @@
 const bscPools = [
   {
     id: 'dopple-dop-lp',
-    logo: 'uncategorized/DOPPLE-DOP-LP.svg',
+    logo: 'Beefy/DOPPLE-DOP-LP.svg',
     name: 'BUSD/USDT/USDC/DAI',
     token: 'BUSD/USDT/USDC/DAI',
     tokenDescription: 'Dopple',
@@ -28,7 +28,7 @@ const bscPools = [
   },
   {
     id: 'dopple-ust-lp',
-    logo: 'uncategorized/DOPPLE-UST-LP.png',
+    logo: 'Beefy/DOPPLE-UST-LP.png',
     name: 'UST/BUSD/USDT',
     token: 'UST/BUSD/USDT',
     tokenDescription: 'Dopple',
@@ -55,7 +55,7 @@ const bscPools = [
   },
   {
     id: 'dopple-dolly-lp',
-    logo: 'uncategorized/DOPPLE-DOLLY-LP.svg',
+    logo: 'Beefy/DOPPLE-DOLLY-LP.svg',
     name: 'DOLLY/BUSD/USDT',
     token: 'DOLLY/BUSD/USDT',
     tokenDescription: 'Dopple',
@@ -82,7 +82,7 @@ const bscPools = [
   },
   {
     id: 'belt-4belt',
-    logo: 'uncategorized/BELT-VENUSBLP.png',
+    logo: 'Beefy/BELT-VENUSBLP.png',
     name: 'BUSD/USDT/USDC/DAI',
     token: '4BELT LP',
     tokenDescription: 'Belt (Auto)',
